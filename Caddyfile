@@ -1,0 +1,5 @@
+portainer.{$ZONE} {
+  import internal_only
+  import defaults
+  reverse_proxy portainer:9000
+}
